@@ -1,0 +1,162 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <world name="line_world">
+    <include><uri>model://ground_plane</uri></include>
+    <include><uri>model://sun</uri></include>
+
+    <model name="seg_AB">
+      <static>true</static>
+      <pose>0 0 0.01 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>20 0.05 0.01</size></box></geometry>
+          <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="seg_BC">
+      <static>true</static>
+      <pose>10 3 0.01 0 0 1.5708</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>6 0.05 0.01</size></box></geometry>
+          <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="seg_CD">
+      <static>true</static>
+      <pose>6 6 0.01 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>8 0.05 0.01</size></box></geometry>
+          <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="seg_DK">
+      <static>true</static>
+      <pose>2 7.5 0.01 0 0 1.5708</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>3 0.05 0.01</size></box></geometry>
+          <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="seg_KL">
+      <static>true</static>
+      <pose>0 9 0.01 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>4 0.05 0.01</size></box></geometry>
+          <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="seg_LG">
+      <static>true</static>
+      <pose>-2 7.5 0.01 0 0 1.5708</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>3 0.05 0.01</size></box></geometry>
+          <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="seg_GH">
+      <static>true</static>
+      <pose>-6 6 0.01 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>8 0.05 0.01</size></box></geometry>
+          <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="seg_HA">
+      <static>true</static>
+      <pose>-10 3 0.01 0 0 1.5708</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>6 0.05 0.01</size></box></geometry>
+          <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="seg_DE">
+      <static>true</static>
+      <pose>2 4 0.01 0 0 1.5708</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>4 0.05 0.01</size></box></geometry>
+          <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="seg_EF">
+      <static>true</static>
+      <pose>0 2 0.01 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>4 0.05 0.01</size></box></geometry>
+          <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="seg_FG">
+      <static>true</static>
+      <pose>-2 4 0.01 0 0 1.5708</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>4 0.05 0.01</size></box></geometry>
+          <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="seg_EI">
+      <static>true</static>
+      <pose>2 -1 0.01 0 0 1.5708</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>6 0.05 0.01</size></box></geometry>
+          <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="seg_IJ">
+      <static>true</static>
+      <pose>0 -4 0.01 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>4 0.05 0.01</size></box></geometry>
+          <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="seg_JF">
+      <static>true</static>
+      <pose>-2 -1 0.01 0 0 1.5708</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>6 0.05 0.01</size></box></geometry>
+          <material><ambient>0 0 0 1</ambient><diffuse>0 0 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

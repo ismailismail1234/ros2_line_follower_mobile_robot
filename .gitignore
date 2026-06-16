@@ -1,0 +1,24 @@
+# ROS2 workspace ignores
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor/OS
+.vscode/
+.DS_Store
+*.swp
+
+# Test/cache
+.pytest_cache/
+coverage.xml
+
+# Misc
+*.egg-info/
+*.egg
+*.orig

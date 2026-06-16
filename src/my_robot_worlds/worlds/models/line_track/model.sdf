@@ -1,0 +1,27 @@
+<sdf version="1.7">
+  <model name="line_track">
+
+    <static>true</static>
+
+    <link name="link">
+
+      <visual name="visual">
+
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>10 10</size>
+          </plane>
+        </geometry>
+
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+        </material>
+
+      </visual>
+
+    </link>
+
+  </model>
+</sdf>
