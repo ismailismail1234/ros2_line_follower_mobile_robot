@@ -35,19 +35,7 @@ source install/setup.bash
 - Use `ros2 launch` to start the bringup and visualization. Launch files live in `my_robot_bringup`.
 - Run nodes directly with `ros2 run <package> <executable>` for specific components (for example the camera/vision node in `line_cv`).
 
-Notes
-- The included photo in the `photos` directory shows the robot used for demos and documentation.
-- If you expect to push to GitHub from this machine, ensure you have your SSH key or PAT configured for the repository URL.
 
-Contributing
-
-Contributions, issues and feature requests are welcome. Please open a GitHub issue or submit a pull request.
-
-License
-
-This repository does not include a license file yet. Add a `LICENSE` file if you intend to make the project open-source.
-
-Contact
 
 Maintainer: Ismail (see GitHub profile at https://github.com/ismailismail1234)
 
