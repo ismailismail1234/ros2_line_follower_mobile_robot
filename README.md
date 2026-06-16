@@ -33,7 +33,8 @@ source install/setup.bash
 4. Run
 
 - Use `ros2 launch` to start the bringup and visualization. Launch files live in `my_robot_bringup`.
-- Run nodes directly with `ros2 run <package> <executable>` for specific components (for example the camera/vision node in `line_cv`).
+- Run nodes directly with `ros2 run <package> <executable>`  `ros2 run line_cv camera_viewer`
+ for specific components (for example the camera/vision node in `line_cv`).
 
 
 
